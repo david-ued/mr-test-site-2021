@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+/********* Common Start **********/
+.headcloud-img{ padding: 15px 0px 0px 0px;text-align: center;}
+.page-rule-group .container{ text-align: center; padding-bottom: 50px;   }
+.rule-head-line-h3{ color:#10a3ea; font-size: 32px;  font-weight: bold;line-height: 50px; margin-top: 0px;}
+.rule-para{font-size: 18px; line-height: 32px;}
+.rule-para .red-dollar-t{ font-weight: bold; }
+.rule-remark-t{ font-size: 14px; }
+.rule-cp-frame,.rule-gift-frame{ background:url(../images/rule/frame_g.png); border-radius: 9px; padding: 15px 0px 15px 0px; text-align: center; width:95%; margin:auto;}
+
+.rule-cpframe-list{ }
+.rule-cpframe-item{ display: inline-block; vertical-align: top;  padding: 15px 0px; }
+.rule-cpframe-item._half{ width:49%;text-align: center; }
+.rule-cpframe-item ._title{ font-size: 24px; margin:15px auto 5px auto;}
+.rule-cover-title{ max-width:90%; margin:auto; }
+.cp-bonus-t{ font-size: 16px; padding-left: 15px; }
+.red-bonus-num{ color:#d74254; font-weight: bolder; font-size: 26px; }
+
+
+.rule-cp-frame .bonus-label{ margin-top:-30px; }
+
+
+.rule-head-date{ padding:10px; text-align:center; }
+.rule-head-date span{ display:inline-block; background:#E71966; color:#FFFFFF; padding:6px 10px; letter-spacing:2px; border-radius: 20px; }
+/********* Common End **********/
+.section-group .section-one{width: 100%; max-width: 980px; margin: 0 auto;}
+.rule-position{position: relative;}
+a,a img{outline: none !important;  behavior: expression(this.onFocus=this.blur());}
+/********* banner Start **********/
+.page-rule-bannerBG{ background:url(../images/rule/rule_bannerBG.jpg) no-repeat center top; text-align:center; height: 687px; }
+
+/********* promotion Start **********/
+.page-rule-promotion{background:url(../images/rule/rule_promotionBG.png) no-repeat center top;}
+.page-rule-promotion .btn{position: absolute; width: 14.5%; padding: 0px; max-width:140px; z-index: 5; right:0; background-repeat: no-repeat; background-position: center top; border: none;}
+.page-rule-promotion .btn1{top: 13.5%;}
+.page-rule-promotion .btn2{top: 33.5%;}
+.page-rule-promotion .btn3{top: 52.3%;}
+.page-rule-promotion .btn4{top: 72%;}
+.page-rule-promotion .btn5{top: 91.5%;}
+.page-rule-promotion .btnTop{top: 97%; width: 5.5%; max-width: 50px; right: 5px;}
+.page-rule-promotion .btnRTop{top: 113%; right: 150px;}
+/********* gift Start **********/
+.page-rule-gift{background:url(../images/rule/rule_giftBG.png) repeat-x center top;}
+
+/********* btn Start **********/
+.page-rule-btn{background: #ffd182; padding-top: 60px; padding-bottom: 20px;}
+
+
+.pop-para-group h3{ padding-bottom:15px; line-height:30px; }
+.pop-para-group h4{ padding-bottom:5px; line-height:1.5em; }
+.pop-para-group h5{line-height:1.2em; display: inline-block; margin: 0 0 20px 0; padding: 5px 10px; font-size: 20px; background-color: #ea5a0b; color:#fff; }
+.pop-para-group {line-height:1.6em; padding: 15px 0px 15px 0px; }
+.pop-para{ padding-bottom:15px; }
+.pop-para-group ol > li{ margin-left:3.2em; }
+
+.mobile .page-rule-banner{
+	padding-top: 53px; 
+}
+
+
+
+
+
