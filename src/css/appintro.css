@@ -648,7 +648,14 @@ a._black:hover {
 }
 
 .card-mobile {
-    background: url(../images/index/treepoint/index_treepoint_1.png) center no-repeat;
+    background: url(../images/index/index_exchange.png) center no-repeat;
+    height: 596px;
+    width: 300px;
+    background-size: contain;
+}
+
+.mission-mobile {
+    background: url(../images/index/index_mb.png) center no-repeat;
     height: 596px;
     width: 300px;
     background-size: contain;
@@ -816,14 +823,14 @@ a._black:hover {
 .ix-s2-mobile {}
 
 .ix-s2-mobile-1 {
-    background: url(../images/index/treepoint/index_third_party_1.png) center no-repeat;
+    background: url(../images/index/index_tsp.png) center no-repeat;
     width: 300px;
     height: 596px;
     background-size: contain;
 }
 
 .ix-s2-mobile-2 {
-    background: url(../images/index/treepoint/index_third_party_2.png) center no-repeat;
+    background: url(../images/index/index_tsp_funnow.png) center no-repeat;
     width: 300px;
     height: 596px;
     margin-top: 220px;
@@ -2763,7 +2770,7 @@ html.mfp-helper {
 }
 
 .index-fav-mobile {
-    background: url(../images/index/index_fav_1.png) center no-repeat;
+    background: url(../images/index/index_favorable.png) center no-repeat;
     background-size: contain;
     width: 300px;
     height: 596px;
@@ -2771,7 +2778,15 @@ html.mfp-helper {
 }
 
 .index-point-change-mobile {
-    background: url(../images/index/index_exchange_1.png) center no-repeat;
+    background: url(../images/index/index_point.png) center no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 596px;
+    margin: 0 auto;
+}
+
+.index-treepoint-mobile {
+    background: url(../images/index/index_treepoint.png) center no-repeat;
     background-size: contain;
     width: 300px;
     height: 596px;
