@@ -649,16 +649,17 @@ a._black:hover {
 
 .card-mobile {
     background: url(../images/index/index_exchange.png) center no-repeat;
-    height: 596px;
+    height: 616px;
     width: 300px;
-    background-size: contain;
+    background-size:cover;
 }
 
 .mission-mobile {
     background: url(../images/index/index_mb.png) center no-repeat;
-    height: 596px;
+    height: 616px;
     width: 300px;
     background-size: contain;
+    margin: 0 auto;
 }
 
 .card-screens {
@@ -825,14 +826,14 @@ a._black:hover {
 .ix-s2-mobile-1 {
     background: url(../images/index/index_tsp.png) center no-repeat;
     width: 300px;
-    height: 596px;
-    background-size: contain;
+    height: 616px;
+    background-size: cover;
 }
 
 .ix-s2-mobile-2 {
     background: url(../images/index/index_tsp_funnow.png) center no-repeat;
     width: 300px;
-    height: 596px;
+    height: 616px;
     margin-top: 220px;
     background-size: contain;
 }
@@ -1242,7 +1243,11 @@ a._black:hover {
     text-align: center;
 }
 
-.page-step-item .step-screen img {}
+.page-step-item .step-screen img {
+    width:290px;
+    height:583px;
+    image-resolution:inherit;
+}
 
 
 /************ Card Start *************/
@@ -2183,7 +2188,7 @@ html.mfp-helper {
         margin-top: 30px;
         display: none;
     }
-    .mobile-set-fit {
+    .mobile-set-fit-sm {
         transform-origin: left;
     }
     .ix-cover-download .btn-appdl {
@@ -2200,7 +2205,7 @@ html.mfp-helper {
         margin: auto;
     }
     /********** Page ************/
-    .mobile-set-fit {
+    .mobile-set-fit-sm {
         width: 100%;
     }
     .page-moblie-title,
@@ -2282,15 +2287,18 @@ html.mfp-helper {
         padding-bottom: 30px;
     }
     .page-step-item .step-head {
-        width: 60%;
+        width: 100%;
         display: inline-block;
         vertical-align: top;
         font-size: 18px;
     }
+
     .page-step-item .step-screen {
-        width: 32%;
-        display: inline-block;
+        width: 100%;
+        display: block;
     }
+   
+
     .page-step-list ul {
         padding-bottom: 50px;
     }
@@ -2415,6 +2423,8 @@ html.mfp-helper {
         line-height: 28px;
         font-weight: bold;
     }
+
+
     .radius-tb-div {
         margin-left: -30px;
         margin-right: -10px;
@@ -2460,6 +2470,8 @@ html.mfp-helper {
             .card_version_number_boxQRcode {
                 margin-left: 20px;
             }
+     
+
         }
         @media all and (max-width: 450px) {
             .store-map-group,
@@ -2773,7 +2785,7 @@ html.mfp-helper {
     background: url(../images/index/index_favorable.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
     margin: 0 auto;
 }
 
@@ -2781,7 +2793,15 @@ html.mfp-helper {
     background: url(../images/index/index_point.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
+    margin: 0 auto;
+}
+
+.point-change-mobile {
+    background: url(../images/point/point_1.png) center no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 616px;
     margin: 0 auto;
 }
 
@@ -2789,7 +2809,7 @@ html.mfp-helper {
     background: url(../images/index/index_treepoint.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
     margin: 0 auto;
 }
 
@@ -2797,7 +2817,7 @@ html.mfp-helper {
     background: url(../images/index/index_my_coupon_1.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
     position: absolute;
     top: 90px;
     left: 90px;
@@ -2807,7 +2827,7 @@ html.mfp-helper {
     background: url(../images/index/index_store_1.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
     margin: 0 auto;
 }
 
@@ -2820,7 +2840,7 @@ html.mfp-helper {
 }
 
 .ix-s2-mobile-set {
-    padding-bottom: 0;
+    padding-bottom: 40px;
 }
 
 .page-index .section-one.section-ix-promotion {
@@ -2932,7 +2952,7 @@ html.mfp-helper {
 }
 
 .page-tps-cover .ix-s2-mobile-1 {
-    background: url(../images/third_party/index_third_party_3.png) center no-repeat;
+    background: url(../images/third_party/tsp_hero.png) center no-repeat;
     width: 490px;
     height: 672px;
     background-size: contain;
@@ -3011,13 +3031,20 @@ html.mfp-helper {
 }
 
 .page-point-ticket-mobile {
-    background: url(../images/index/index_my_coupon_1.png) center no-repeat;
+    background: url(../images/exchange/exchange_1.png) center no-repeat;
     background-size: contain;
     width: 300px;
-    height: 596px;
+    height: 616px;
     margin: 0 auto;
 }
 
+.page-point-mission-mobile {
+    background: url(../images/mission/mb_1.png) center no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 616px;
+    margin: 0 auto;
+}
 
 /* page cover  */
 

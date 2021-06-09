@@ -22,10 +22,10 @@ $( window ).load(function(e) {
           var appVersion = data.results[0].version;
           $('.js-app-version').text(appVersion);
       } else {
-          $('.js-app-version').text('8.0.0');
+          $('.js-app-version').text('10.0.0');
       }
   }, 'json').fail(function() {
-      $('.js-app-version').text('8.0.0');
+      $('.js-app-version').text('10.0.0');
   });
 
 	if($(".page-index").length > 0){
