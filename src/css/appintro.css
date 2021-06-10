@@ -505,7 +505,7 @@ a._black:hover {
 .intro-set {
     text-align: center;
     line-height: 1.5em;
-    padding: 15px 0px;
+    padding: 60px 0px;
 }
 
 ._intro_img {
@@ -534,7 +534,7 @@ a._black:hover {
 
 @charset "utf-8";
 .page-index .section-one {
-    height: 700px;
+    height: 740px;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
@@ -3121,7 +3121,7 @@ html.mfp-helper {
         margin-bottom: -30vw;
     }
     .card-mobile-set {
-        padding: 0;
+        padding: 25px;
     }
     .card-mobile {
         margin: 0 auto;
