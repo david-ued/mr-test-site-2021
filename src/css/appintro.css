@@ -1249,6 +1249,11 @@ a._black:hover {
     image-resolution:inherit;
 }
 
+.instruction-title {
+    font-size: 36px;
+    color:#00984E;
+}
+
 
 /************ Card Start *************/
 
