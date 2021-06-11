@@ -701,6 +701,9 @@ a._black:hover {
     display: none;
 }
 
+
+
+
 .isie .card-screens ._shadow {
     position: absolute;
     width: 104%;
@@ -1944,9 +1947,11 @@ html.mfp-helper {
     .view-on-mobile {
         display: block;
     }
-    .view-on-mobile-mini {
+    
+/*     .view-on-mobile-mini {
         display: none !important;
-    }
+    } */
+
     .view-on-destop {
         display: none;
     }
@@ -2642,6 +2647,7 @@ html.mfp-helper {
 
 .green-content__text {
     padding-bottom: 14px;
+
 }
 
 .green-content__ul {
@@ -3079,6 +3085,11 @@ html.mfp-helper {
     .ix-s2-mobile-2 {
         display: none;
     }
+
+    .mobiel-page-text {
+        width: 100%;
+        padding: 0 20px;
+    }
     .page-treepoint-cover .card-page-left .card-mobile {
         margin-left: 0px;
         margin-top: 0px;
@@ -3110,6 +3121,14 @@ html.mfp-helper {
 @media all and (max-width: 767px) {
     .page-logo img {
         width: auto;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .green-content__text {
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
     }
     .page-cover-group .container.treepoint-container {
         height: auto;
@@ -3268,6 +3287,10 @@ html.mfp-helper {
     .page-index .section-one.section-ix-storepromo {
         height: auto;
         padding-bottom: 40px;
+    }
+
+    .section-right.mobiel-page-text .page-intro-set {
+        padding: 40px 0 60px 0;
     }
 }
 
