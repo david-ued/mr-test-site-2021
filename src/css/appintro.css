@@ -48,6 +48,8 @@ div {
 
 .section-one {}
 
+
+
 .section-container,
 .page-container,
 body .container {
@@ -1109,6 +1111,23 @@ a._black:hover {
     height: auto;
 }
 
+.footer-terms{
+    border-top:#D4D4D4 1px solid;
+    margin-top:40px;
+    padding-top:20px;
+    text-align:left;
+}
+
+.footer-terms a{
+    color:#7C7C7C;
+    text-decoration: underline;
+}
+
+.footer-terms a:hover{
+    color:#505050;
+    text-decoration: underline;
+}
+
 
 /************ Footer Page End *************/
 
@@ -1255,6 +1274,16 @@ a._black:hover {
 .instruction-title {
     font-size: 36px;
     color:#00984E;
+}
+
+.terms-title {
+    padding-top:140px;
+}
+
+.terms-paragraph {
+    padding-top:80px;
+    padding-bottom:80px;
+    text-align:left;
 }
 
 
@@ -3122,6 +3151,23 @@ html.mfp-helper {
     .page-logo img {
         width: auto;
     }
+
+    /* Added style for terms*/     
+    .terms-title {
+        padding-top:100px;
+        line-height:150%;
+        font-size:28px;
+    }
+
+    .footer-terms{
+        text-align:center;
+    }
+
+    .terms-paragraph {
+        padding-top:40px;
+        padding-bottom:40px
+    }
+
     .hide-on-mobile {
         display: none;
     }
