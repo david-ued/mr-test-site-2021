@@ -1079,7 +1079,7 @@ a._black:hover {
 
 .group-page-footer .container {
     text-align: center;
-    padding: 50px 10px;
+    padding: 50px 10px 20px 10px;
 }
 
 .group-page-footer .cathay-logo {
@@ -1116,6 +1116,7 @@ a._black:hover {
     margin-top:40px;
     padding-top:20px;
     text-align:left;
+
 }
 
 .footer-terms a{
@@ -3165,6 +3166,8 @@ html.mfp-helper {
 
     .footer-terms{
         text-align:center;
+        width:80%;
+        margin:auto;
     }
 
     .terms-paragraph {
