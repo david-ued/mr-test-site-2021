@@ -3222,7 +3222,8 @@ html.mfp-helper {
         margin-top: 0px;
     }
     .group-page-footer .cathay-logo {
-        max-width: 100%;
+        max-width: 80%;
+        padding-bottom:20px;
     }
     .group-page-footer .cathay-logo {
         display: block;
