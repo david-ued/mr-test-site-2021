@@ -3159,9 +3159,9 @@ html.mfp-helper {
 
     /* Added style for terms*/     
     .terms-title {
-        padding-top:100px;
-        line-height:150%;
-        font-size:28px;
+        padding-top:40px;
+        line-height:140%;
+        font-size:24px;
     }
 
     .footer-terms{
